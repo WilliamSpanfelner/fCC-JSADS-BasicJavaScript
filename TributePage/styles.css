@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Share Tech', Helvetica, sans-serif;
+  background: silver;
+  text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#main {
+  background-color: lightblue;
+}
+
+#title {
+  font-size: 50px;
+  position: relative;
+  background: black;
+  padding: 50px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+#content-body{
+    padding: 11rem 1rem 1rem;
+}
+
+#img-div {
+    margin: 1rem;
+}
+
+#image {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption{
+  font-size: 12px;
+  margin-top: 0.25rem;
+}
+
+#tribute-info{
+  font-size: 16px;
+  text-align: justify;
+}
+
+footer{
+  font-weight: bold;
+  position: relative;
+  background: black;
+  padding: 20px;
+  color: gray;
+}
